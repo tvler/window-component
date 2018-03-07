@@ -13,11 +13,17 @@
     "react": "^16.2.0"
   },
   "babel": {
-    "presets": ["env", "react"],
-    "plugins": ["transform-class-properties", "transform-object-rest-spread"]
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ]
   },
   "name": "window-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.dist.js",
   "license": "MIT"
 }
